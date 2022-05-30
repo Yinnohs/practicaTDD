@@ -7,3 +7,7 @@ class TestCounter (unittest.TestCase):
         counter.count()
         self.assertEqual(counter.getCurrentNumber(),4)
 
+
+if __name__ == '__main__':
+    unittest.main()
+

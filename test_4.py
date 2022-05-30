@@ -7,3 +7,5 @@ class TestCounter (unittest.TestCase):
         counter.reset()
         self.assertEqual(counter.getCurrentNumber(),counter.startValue_)
 
+if __name__ == '__main__':
+    unittest.main()

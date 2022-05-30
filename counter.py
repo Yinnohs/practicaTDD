@@ -28,3 +28,6 @@ class MyCounter:
 
     def getCurrentNumber(self):
         return self.currentValue_
+
+    def reset (self):
+        self.currentValue_ = self.startValue_
