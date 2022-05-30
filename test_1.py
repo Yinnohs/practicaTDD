@@ -1,5 +1,5 @@
 import unittest
-
+from counter import MyCounter
 counter = MyCounter()
 
 class TestCounter (unittest.TestCase):
