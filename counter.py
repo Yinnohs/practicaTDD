@@ -1,7 +1,7 @@
 
 class MyCounter:
 
-    def __init__(self, startValue, incrementalValue, limitValue ):
+    def __init__(self, startValue = 0, incrementalValue, limitValue ):
         self.startValue_ = startValue
         self.incrementalValue_ = incrementalValue
         self.limitValue_ = limitValue
